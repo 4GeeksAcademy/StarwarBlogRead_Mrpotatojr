@@ -11,7 +11,8 @@ export const initialStore=()=>{
         id: 2,
         title: "Do my homework",
         background: null,
-      }
+      },
+      
     ]
   }
 }
