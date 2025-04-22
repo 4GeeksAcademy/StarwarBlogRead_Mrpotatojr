@@ -1,7 +1,7 @@
 import rigoImageUrl from "../assets/img/rigo-baby.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
-import { Details } from "../components/details.jsx";
 import { Peoplecards } from "../components/peoplecards.jsx";
+import  PlanetCards  from "../components/planetcards.jsx";
 
 export const Home = () => {
 
@@ -11,6 +11,9 @@ export const Home = () => {
 		<>
 		<h1 className="text-danger mt-3">Characters</h1>
 		<Peoplecards/>
+		<h1 className="text-danger mt-3">Planets</h1>
+		<PlanetCards/>
+
 		</>
 	);
 }; 
